@@ -12,16 +12,19 @@ npm install -g selenium-side-runner
 
 
 We have to also install the npm packages for different browser drivers too.
-We will install for chrome browser with this command 
+We will install for chrome browser with this command.
+
 ```
 npm install -g chromedriver
 ```
 
+In the commmand "-g" means it will install chromedriver for globally.
 Now you have saved project of selenium GUI, In which folder you have to open and put the downloaded chrome driver package.(Since i'm using ubuntu so i don't need that)
 
 If you are in windows you have to also set the enviroment variable.
 
 Then simply run the command to run with CLI
+
 ```
 selenium-side-runner << FULL PATH OF project.side >>
 ```
